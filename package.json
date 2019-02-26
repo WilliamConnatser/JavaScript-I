@@ -1,0 +1,19 @@
+{
+  "name": "javascript-i",
+  "version": "1.0.0",
+  "description": "* The point of these assignments is to take your knowledge of JavaScript and start putting into practice the principles learned throughout JavaScript I.",
+  "main": "assignments/index.html",
+  "scripts": {
+    "start": "live-server assignments/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamConnatser/JavaScript-I.git"
+  },
+  "author": "William Connatser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WilliamConnatser/JavaScript-I/issues"
+  },
+  "homepage": "https://github.com/WilliamConnatser/JavaScript-I#readme"
+}
