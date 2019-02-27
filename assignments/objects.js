@@ -96,15 +96,18 @@ const parent = {
     child: {
       name: 'Sam',
       age: 30,
-      speakName: function() {
+      speakName: _ => {
+        this.name = parent.child.child.name;
         console.log(this.name)
       }
     },
-    speakName: function() {
+    speakName: _ => {
+      this.name = parent.child.name;
       console.log(this.name)
     }
   },
-  speakName: function() {
+  speakName: _ => {
+    this.name = parent.name;
     console.log(this.name)
   }
 }
